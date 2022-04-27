@@ -1,0 +1,84 @@
+.Banner {
+    background-color:#222;
+    width: 100%;
+    display: flex;
+    height: 74px;   
+    flex-direction:column;
+}
+
+.BannerContentWrapper {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 16px;
+    background-color:indianred;
+    color: whitesmoke;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.TextBlock {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.Navbar {
+    display:flex;
+    width: 100%;
+    background-color:indianred;
+    height: 74px;
+    flex-direction:row;
+}
+
+.NavWrapper {
+    padding:20px;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+    
+.Brand {
+    padding-left: 10px;
+}
+
+.NavMenu {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+button {
+    padding: 4px 10px 4px 10px;
+    margin: 0px 10px 0px 20px;
+    position: relative;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: indianred;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+.Cart {
+    color:white;
+    background-color: #222;
+    padding: 6px 15px 6px 15px;
+    position: relative;
+    border-radius:5px;
+}
+
+.Cart img {
+    width:20px;
+    position: static;
+}
